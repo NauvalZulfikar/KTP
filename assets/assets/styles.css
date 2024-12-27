@@ -1,0 +1,32 @@
+/* Styles for blinking red text */
+.blinking {
+    animation: blinker 1s linear infinite;
+    color: red;
+    font-weight: bold;
+}
+
+/* Keyframes for blinking effect */
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+/* Styles for the green box */
+.highlight-green {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid green;
+}
+
+/* General box style */
+.message-box {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid;
+    margin: 10px;
+}
